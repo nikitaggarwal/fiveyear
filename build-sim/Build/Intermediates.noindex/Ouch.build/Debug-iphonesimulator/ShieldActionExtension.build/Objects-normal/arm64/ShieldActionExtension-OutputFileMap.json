@@ -1,0 +1,29 @@
+{
+  "" : {
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/ShieldActionExtension-primary.dia",
+    "emit-module-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/ShieldActionExtension-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/ShieldActionExtension-primary-emit-module.dia",
+    "pch" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/ShieldActionExtension-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/ShieldActionExtension-primary.swiftdeps"
+  },
+  "/Users/Nikita/github/fiveyear/Shared/SharedDefaults.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/SharedDefaults.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/SharedDefaults.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/SharedDefaults.dia",
+    "index-unit-output-path" : "/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/SharedDefaults.o",
+    "llvm-bc" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/SharedDefaults.bc",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/SharedDefaults.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/SharedDefaults.swiftdeps",
+    "swiftmodule" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/SharedDefaults~partial.swiftmodule"
+  },
+  "/Users/Nikita/github/fiveyear/ShieldActionExtension/ShieldActionExtension.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/ShieldActionExtension.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/ShieldActionExtension.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/ShieldActionExtension.dia",
+    "index-unit-output-path" : "/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/ShieldActionExtension.o",
+    "llvm-bc" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/ShieldActionExtension.bc",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/ShieldActionExtension.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/ShieldActionExtension.swiftdeps",
+    "swiftmodule" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/ShieldActionExtension.build/Objects-normal/arm64/ShieldActionExtension~partial.swiftmodule"
+  }
+}

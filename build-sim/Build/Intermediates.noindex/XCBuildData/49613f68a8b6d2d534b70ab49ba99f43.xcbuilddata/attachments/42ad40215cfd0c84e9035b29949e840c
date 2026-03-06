@@ -1,0 +1,29 @@
+{
+  "" : {
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/DeviceActivityMonitorExtension-primary.dia",
+    "emit-module-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/DeviceActivityMonitorExtension-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/DeviceActivityMonitorExtension-primary-emit-module.dia",
+    "pch" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/DeviceActivityMonitorExtension-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/DeviceActivityMonitorExtension-primary.swiftdeps"
+  },
+  "/Users/Nikita/github/fiveyear/DeviceActivityMonitorExtension/DeviceActivityMonitorExtension.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/DeviceActivityMonitorExtension.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/DeviceActivityMonitorExtension.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/DeviceActivityMonitorExtension.dia",
+    "index-unit-output-path" : "/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/DeviceActivityMonitorExtension.o",
+    "llvm-bc" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/DeviceActivityMonitorExtension.bc",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/DeviceActivityMonitorExtension.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/DeviceActivityMonitorExtension.swiftdeps",
+    "swiftmodule" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/DeviceActivityMonitorExtension~partial.swiftmodule"
+  },
+  "/Users/Nikita/github/fiveyear/Shared/SharedDefaults.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/SharedDefaults.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/SharedDefaults.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/SharedDefaults.dia",
+    "index-unit-output-path" : "/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/SharedDefaults.o",
+    "llvm-bc" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/SharedDefaults.bc",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/SharedDefaults.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/SharedDefaults.swiftdeps",
+    "swiftmodule" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/DeviceActivityMonitorExtension.build/Objects-normal/arm64/SharedDefaults~partial.swiftmodule"
+  }
+}

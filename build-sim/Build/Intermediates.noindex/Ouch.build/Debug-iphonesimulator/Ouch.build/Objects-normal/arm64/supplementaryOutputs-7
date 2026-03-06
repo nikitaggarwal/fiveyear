@@ -1,0 +1,23 @@
+{
+  "/Users/Nikita/github/fiveyear/Ouch/Theme/Theme.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/Theme.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/Theme.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/Theme.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/Theme.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/Theme.swiftdeps"
+  },
+  "/Users/Nikita/github/fiveyear/Ouch/Views/Components/StatItem.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/StatItem.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/StatItem.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/StatItem.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/StatItem.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/StatItem.swiftdeps"
+  },
+  "/Users/Nikita/github/fiveyear/Ouch/Views/Stats/StatsView.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/StatsView.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/StatsView.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/StatsView.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/StatsView.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/StatsView.swiftdeps"
+  }
+}

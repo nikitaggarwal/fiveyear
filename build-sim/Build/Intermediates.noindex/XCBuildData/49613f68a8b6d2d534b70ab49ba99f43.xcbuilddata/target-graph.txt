@@ -1,0 +1,8 @@
+Target dependency graph (4 targets)
+Target 'Ouch' in project 'Ouch'
+➜ Explicit dependency on target 'DeviceActivityMonitorExtension' in project 'Ouch'
+➜ Explicit dependency on target 'ShieldConfigurationExtension' in project 'Ouch'
+➜ Explicit dependency on target 'ShieldActionExtension' in project 'Ouch'
+Target 'ShieldActionExtension' in project 'Ouch' (no dependencies)
+Target 'ShieldConfigurationExtension' in project 'Ouch' (no dependencies)
+Target 'DeviceActivityMonitorExtension' in project 'Ouch' (no dependencies)

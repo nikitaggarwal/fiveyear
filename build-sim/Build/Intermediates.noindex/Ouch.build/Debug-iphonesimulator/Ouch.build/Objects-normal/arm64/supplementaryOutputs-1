@@ -1,0 +1,30 @@
+{
+  "/Users/Nikita/github/fiveyear/Ouch/App/AppState.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/AppState.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/AppState.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/AppState.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/AppState.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/AppState.swiftdeps"
+  },
+  "/Users/Nikita/github/fiveyear/Ouch/Views/Components/ActionButton.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/ActionButton.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/ActionButton.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/ActionButton.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/ActionButton.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/ActionButton.swiftdeps"
+  },
+  "/Users/Nikita/github/fiveyear/Ouch/Views/Components/CircularProgress.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/CircularProgress.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/CircularProgress.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/CircularProgress.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/CircularProgress.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/CircularProgress.swiftdeps"
+  },
+  "/Users/Nikita/github/fiveyear/Ouch/Views/Home/BedtimeView.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/BedtimeView.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/BedtimeView.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/BedtimeView.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/BedtimeView.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/BedtimeView.swiftdeps"
+  }
+}

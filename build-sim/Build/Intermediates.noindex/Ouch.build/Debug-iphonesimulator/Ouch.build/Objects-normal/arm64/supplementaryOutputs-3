@@ -1,0 +1,30 @@
+{
+  "/Users/Nikita/github/fiveyear/Ouch/Views/Components/GlassCard.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/GlassCard.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/GlassCard.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/GlassCard.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/GlassCard.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/GlassCard.swiftdeps"
+  },
+  "/Users/Nikita/github/fiveyear/Ouch/Views/Home/HomeView.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/HomeView.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/HomeView.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/HomeView.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/HomeView.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/HomeView.swiftdeps"
+  },
+  "/Users/Nikita/github/fiveyear/Ouch/Views/Home/MorningView.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/MorningView.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/MorningView.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/MorningView.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/MorningView.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/MorningView.swiftdeps"
+  },
+  "/Users/Nikita/github/fiveyear/Ouch/Views/MainTabView.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/MainTabView.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/MainTabView.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/MainTabView.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/MainTabView.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/MainTabView.swiftdeps"
+  }
+}

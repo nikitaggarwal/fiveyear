@@ -1,0 +1,23 @@
+{
+  "/Users/Nikita/github/fiveyear/Ouch/Models/PenaltyEvent.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/PenaltyEvent.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/PenaltyEvent.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/PenaltyEvent.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/PenaltyEvent.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/PenaltyEvent.swiftdeps"
+  },
+  "/Users/Nikita/github/fiveyear/Ouch/Models/Schedule.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/Schedule.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/Schedule.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/Schedule.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/Schedule.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/Schedule.swiftdeps"
+  },
+  "/Users/Nikita/github/fiveyear/Ouch/Views/Schedule/ScheduleView.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/ScheduleView.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/ScheduleView.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/ScheduleView.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/ScheduleView.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/ScheduleView.swiftdeps"
+  }
+}

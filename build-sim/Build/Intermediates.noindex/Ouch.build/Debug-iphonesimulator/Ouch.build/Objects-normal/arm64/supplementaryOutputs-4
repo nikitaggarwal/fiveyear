@@ -1,0 +1,23 @@
+{
+  "/Users/Nikita/github/fiveyear/Ouch/App/OuchApp.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/OuchApp.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/OuchApp.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/OuchApp.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/OuchApp.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/OuchApp.swiftdeps"
+  },
+  "/Users/Nikita/github/fiveyear/Ouch/Services/NotificationService.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/NotificationService.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/NotificationService.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/NotificationService.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/NotificationService.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/NotificationService.swiftdeps"
+  },
+  "/Users/Nikita/github/fiveyear/Ouch/Views/Onboarding/OnboardingView.swift" : {
+    "const-values" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/OnboardingView.swiftconstvalues",
+    "dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/OnboardingView.d",
+    "diagnostics" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/OnboardingView.dia",
+    "object" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/OnboardingView.o",
+    "swift-dependencies" : "/Users/Nikita/github/fiveyear/build-sim/Build/Intermediates.noindex/Ouch.build/Debug-iphonesimulator/Ouch.build/Objects-normal/arm64/OnboardingView.swiftdeps"
+  }
+}

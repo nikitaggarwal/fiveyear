@@ -1,0 +1,915 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03256B7F828C8F1D947F8D78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22ACDCFE8245D8664D33AE8C /* Preview Assets.xcassets */; };
+		05DB2AACA6F8EFF372E1D80C /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8FEA8479095CEF09AE314 /* MainTabView.swift */; };
+		0B3C75D87C124768274F9D72 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55120EE974C74E4FA12CA6C5 /* SettingsView.swift */; };
+		0CD97DC9A53388B581CFD59E /* ScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D6E28CECFD632FAAD5154 /* ScheduleTests.swift */; };
+		103F1A0F1FD9399B656B47BE /* FocusActiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B095F5DDD326DE4A13634C1 /* FocusActiveView.swift */; };
+		1CBA6DE93BA3063F075D1B4D /* ShieldConfigurationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09154FF889EE4F2FD10D5D5 /* ShieldConfigurationExtension.swift */; };
+		2BCC6A6FFB82FCA3B5525737 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67812EDAFB556DA0205AE135 /* AppState.swift */; };
+		2CDA606A4E5E460AB187ADC2 /* BedtimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB3AC48554474F8D5627468 /* BedtimeView.swift */; };
+		31683AC236ADA43EC99F1BE8 /* SharedDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5EFC5EB014EECBC6F479D /* SharedDefaults.swift */; };
+		3442B4E70C62C24551842E7A /* FreeTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AA99496EF7653098E2012D /* FreeTimeView.swift */; };
+		346F882C188E097B16A0549E /* VenmoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376DFE9C9443D7A8412EFA3 /* VenmoService.swift */; };
+		363A6F620F14C85FDB8A8263 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69CB6C11E54EA3282562B49 /* Schedule.swift */; };
+		3D6170C06EF0DE1E6AA703C2 /* FocusBlockEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997C3F5EDDDD6024C9D8E037 /* FocusBlockEditView.swift */; };
+		6CF413DA948BF80B6F076E1E /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C90D390479CD750CDA2CFF /* ActionButton.swift */; };
+		7601FBE6EC9C0B713FD14304 /* ScreenTimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED47ADA2559A615BFCD7B00E /* ScreenTimeManager.swift */; };
+		80E5BA167A42805934301554 /* TimeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FEB6AC0368E3BAAFF4E579 /* TimeState.swift */; };
+		8A07255C965E75CAECED3E45 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD45DC89BEA81065398D5867 /* ScheduleView.swift */; };
+		8FBAA16A0A53520784E58784 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E7D14EC3461753EE830814 /* NotificationService.swift */; };
+		A5BBACFE569BCB3BEF749892 /* ShieldActionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6035CB6CF917B163D7B9C2AD /* ShieldActionExtension.swift */; };
+		A73F449A9664C9D3947FAD27 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FB45DADF81F38B72016859 /* HomeView.swift */; };
+		A79AD5454C2EC1A8A9388A22 /* PenaltyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01CCF85D207A504C6A5D8E2 /* PenaltyEvent.swift */; };
+		B7785620E7531EC1B1CDBD23 /* MorningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82F70F70F80FE1EA632CD90 /* MorningView.swift */; };
+		B8BF53B653E8345E52B139D1 /* OuchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5BB8B79E842E47AFD02DDC /* OuchApp.swift */; };
+		BB27AD6C96EAA0581ED4E229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3813E033B2A10ABFEF948A6C /* Assets.xcassets */; };
+		CC6640F084D827DAF1C23E21 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C5775DF0B1F1426DABA195 /* Theme.swift */; };
+		CD0006EF61E5D8369CA2DB88 /* DeviceActivityMonitorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C48F8994225437B7CA70B1 /* DeviceActivityMonitorExtension.swift */; };
+		CD17A537AD522CCD13BC0C13 /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59327C25AC64F0D04E50BCC /* GlassCard.swift */; };
+		CEBB8D3C894B20F5547836F1 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D88DCCEEA687E9D930C50F /* StatsView.swift */; };
+		D02C7E2F7289126A110DB53D /* SharedDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5EFC5EB014EECBC6F479D /* SharedDefaults.swift */; };
+		D0AC7A3182EDC80F51DC3A74 /* SharedDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5EFC5EB014EECBC6F479D /* SharedDefaults.swift */; };
+		D1863E5609293D3583AD945B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAC0D6E20EAFBB837671240 /* OnboardingView.swift */; };
+		D24B29E8C3455010ADB832A0 /* SharedDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5EFC5EB014EECBC6F479D /* SharedDefaults.swift */; };
+		F0E4B536BFEEEF407729C1D2 /* StatItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6875CDDDE4566B21C1492B1 /* StatItem.swift */; };
+		F555B27CE5E95A1C87A02F27 /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47C048B0644BE13C041626A /* CircularProgress.swift */; };
+		F9DD9FB159645A1FB3CBA6D0 /* DayPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B264542176B751BE0D7212DD /* DayPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A21D38F5297A50B72B87675 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9260188559897D39AFB9CFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F1748EFB4894BD2D43A699F;
+			remoteInfo = Ouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EB3AC48554474F8D5627468 /* BedtimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedtimeView.swift; sourceTree = "<group>"; };
+		1A1D6E28CECFD632FAAD5154 /* ScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTests.swift; sourceTree = "<group>"; };
+		1C104B0F9C4AA0B0DFA132A4 /* OuchTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = OuchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE8FEA8479095CEF09AE314 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		21AA99496EF7653098E2012D /* FreeTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeTimeView.swift; sourceTree = "<group>"; };
+		21FB45DADF81F38B72016859 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		22ACDCFE8245D8664D33AE8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		306951422F7CDD54CEBCE7F0 /* DeviceActivityMonitorExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DeviceActivityMonitorExtension.entitlements; sourceTree = "<group>"; };
+		3733E503DFE4DF6A4C0BE5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3813E033B2A10ABFEF948A6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40E8976E493C08D6DCAB29A8 /* DeviceActivityMonitorExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DeviceActivityMonitorExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F5EFC5EB014EECBC6F479D /* SharedDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedDefaults.swift; sourceTree = "<group>"; };
+		50E7D14EC3461753EE830814 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		55120EE974C74E4FA12CA6C5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5904F1820E088DDC8A35AC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6035CB6CF917B163D7B9C2AD /* ShieldActionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldActionExtension.swift; sourceTree = "<group>"; };
+		66D88DCCEEA687E9D930C50F /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		66FEB6AC0368E3BAAFF4E579 /* TimeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeState.swift; sourceTree = "<group>"; };
+		67812EDAFB556DA0205AE135 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		8F5BB8B79E842E47AFD02DDC /* OuchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuchApp.swift; sourceTree = "<group>"; };
+		9376DFE9C9443D7A8412EFA3 /* VenmoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenmoService.swift; sourceTree = "<group>"; };
+		997C3F5EDDDD6024C9D8E037 /* FocusBlockEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusBlockEditView.swift; sourceTree = "<group>"; };
+		9B095F5DDD326DE4A13634C1 /* FocusActiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusActiveView.swift; sourceTree = "<group>"; };
+		A01CCF85D207A504C6A5D8E2 /* PenaltyEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenaltyEvent.swift; sourceTree = "<group>"; };
+		A2B43F2DBF445C30629FC7EC /* ShieldActionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShieldActionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C48F8994225437B7CA70B1 /* DeviceActivityMonitorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceActivityMonitorExtension.swift; sourceTree = "<group>"; };
+		A4CCB3FEC61358ECA7948481 /* Ouch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ouch.entitlements; sourceTree = "<group>"; };
+		A69CB6C11E54EA3282562B49 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		A9C5775DF0B1F1426DABA195 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AB49D9094315A1903CF0161B /* ShieldConfigurationExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShieldConfigurationExtension.entitlements; sourceTree = "<group>"; };
+		AD45DC89BEA81065398D5867 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		B09154FF889EE4F2FD10D5D5 /* ShieldConfigurationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldConfigurationExtension.swift; sourceTree = "<group>"; };
+		B1C90D390479CD750CDA2CFF /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		B264542176B751BE0D7212DD /* DayPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPicker.swift; sourceTree = "<group>"; };
+		BBAFAAC5CFCDE4E89D091AEC /* Ouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35F641C51EAEF2BF4B4F8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D47C048B0644BE13C041626A /* CircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgress.swift; sourceTree = "<group>"; };
+		D59327C25AC64F0D04E50BCC /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		D6875CDDDE4566B21C1492B1 /* StatItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatItem.swift; sourceTree = "<group>"; };
+		D7A06962337E062526F64C99 /* ShieldActionExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShieldActionExtension.entitlements; sourceTree = "<group>"; };
+		D82F70F70F80FE1EA632CD90 /* MorningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningView.swift; sourceTree = "<group>"; };
+		DD0F67A6645406C839A41439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EA17B4146C0EDA33A75E01A1 /* ShieldConfigurationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShieldConfigurationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAC0D6E20EAFBB837671240 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		ED47ADA2559A615BFCD7B00E /* ScreenTimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTimeManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01344792C3E797CBF6A412E7 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				EBAC0D6E20EAFBB837671240 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		09C109221D3059879B78E62E /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A9C5775DF0B1F1426DABA195 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		2406E7E3FE00B030E30DFABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40E8976E493C08D6DCAB29A8 /* DeviceActivityMonitorExtension.appex */,
+				BBAFAAC5CFCDE4E89D091AEC /* Ouch.app */,
+				1C104B0F9C4AA0B0DFA132A4 /* OuchTests.xctest */,
+				A2B43F2DBF445C30629FC7EC /* ShieldActionExtension.appex */,
+				EA17B4146C0EDA33A75E01A1 /* ShieldConfigurationExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24D07B4D881991C7069785B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FE8FEA8479095CEF09AE314 /* MainTabView.swift */,
+				ED91D9F945103E4FF35F7CF3 /* Components */,
+				CF8282ADBC0EA9B8813BF85D /* Home */,
+				01344792C3E797CBF6A412E7 /* Onboarding */,
+				EC705F50BCF6008F4D837EDC /* Schedule */,
+				7AC6B20AA8129502691703B4 /* Settings */,
+				8C43CB3A3D9F35113FD9657F /* Stats */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FBE35249559BBD208818406 /* OuchTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A1D6E28CECFD632FAAD5154 /* ScheduleTests.swift */,
+			);
+			path = OuchTests;
+			sourceTree = "<group>";
+		};
+		4798376015D8E6734F974E22 /* ShieldConfigurationExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D35F641C51EAEF2BF4B4F8C4 /* Info.plist */,
+				AB49D9094315A1903CF0161B /* ShieldConfigurationExtension.entitlements */,
+				B09154FF889EE4F2FD10D5D5 /* ShieldConfigurationExtension.swift */,
+			);
+			path = ShieldConfigurationExtension;
+			sourceTree = "<group>";
+		};
+		58C41AB085F26BE27C7B355F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A01CCF85D207A504C6A5D8E2 /* PenaltyEvent.swift */,
+				A69CB6C11E54EA3282562B49 /* Schedule.swift */,
+				66FEB6AC0368E3BAAFF4E579 /* TimeState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F6D5407A3942C15C04CBEF8 /* DeviceActivityMonitorExtension */ = {
+			isa = PBXGroup;
+			children = (
+				306951422F7CDD54CEBCE7F0 /* DeviceActivityMonitorExtension.entitlements */,
+				A2C48F8994225437B7CA70B1 /* DeviceActivityMonitorExtension.swift */,
+				3733E503DFE4DF6A4C0BE5BB /* Info.plist */,
+			);
+			path = DeviceActivityMonitorExtension;
+			sourceTree = "<group>";
+		};
+		7AC6B20AA8129502691703B4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				55120EE974C74E4FA12CA6C5 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		8444752AE70575472BA6ED26 = {
+			isa = PBXGroup;
+			children = (
+				5F6D5407A3942C15C04CBEF8 /* DeviceActivityMonitorExtension */,
+				FCBB174DD90D0A525C9E24EF /* Ouch */,
+				3FBE35249559BBD208818406 /* OuchTests */,
+				953EFDEE8FB3DCD688EBDA27 /* Shared */,
+				9C30A4EA319542C9F6F3B6AF /* ShieldActionExtension */,
+				4798376015D8E6734F974E22 /* ShieldConfigurationExtension */,
+				2406E7E3FE00B030E30DFABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C43CB3A3D9F35113FD9657F /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				66D88DCCEEA687E9D930C50F /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		9222BEC195D9B5A439623E1D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				50E7D14EC3461753EE830814 /* NotificationService.swift */,
+				ED47ADA2559A615BFCD7B00E /* ScreenTimeManager.swift */,
+				9376DFE9C9443D7A8412EFA3 /* VenmoService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		953EFDEE8FB3DCD688EBDA27 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				40F5EFC5EB014EECBC6F479D /* SharedDefaults.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		9C30A4EA319542C9F6F3B6AF /* ShieldActionExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DD0F67A6645406C839A41439 /* Info.plist */,
+				D7A06962337E062526F64C99 /* ShieldActionExtension.entitlements */,
+				6035CB6CF917B163D7B9C2AD /* ShieldActionExtension.swift */,
+			);
+			path = ShieldActionExtension;
+			sourceTree = "<group>";
+		};
+		CADAFEEA3052106AECBA73D0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				67812EDAFB556DA0205AE135 /* AppState.swift */,
+				8F5BB8B79E842E47AFD02DDC /* OuchApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CF8282ADBC0EA9B8813BF85D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0EB3AC48554474F8D5627468 /* BedtimeView.swift */,
+				9B095F5DDD326DE4A13634C1 /* FocusActiveView.swift */,
+				21AA99496EF7653098E2012D /* FreeTimeView.swift */,
+				21FB45DADF81F38B72016859 /* HomeView.swift */,
+				D82F70F70F80FE1EA632CD90 /* MorningView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D3CA54862C17356A2ACB6038 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22ACDCFE8245D8664D33AE8C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC705F50BCF6008F4D837EDC /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				997C3F5EDDDD6024C9D8E037 /* FocusBlockEditView.swift */,
+				AD45DC89BEA81065398D5867 /* ScheduleView.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		ED91D9F945103E4FF35F7CF3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B1C90D390479CD750CDA2CFF /* ActionButton.swift */,
+				D47C048B0644BE13C041626A /* CircularProgress.swift */,
+				B264542176B751BE0D7212DD /* DayPicker.swift */,
+				D59327C25AC64F0D04E50BCC /* GlassCard.swift */,
+				D6875CDDDE4566B21C1492B1 /* StatItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FCBB174DD90D0A525C9E24EF /* Ouch */ = {
+			isa = PBXGroup;
+			children = (
+				3813E033B2A10ABFEF948A6C /* Assets.xcassets */,
+				5904F1820E088DDC8A35AC50 /* Info.plist */,
+				A4CCB3FEC61358ECA7948481 /* Ouch.entitlements */,
+				CADAFEEA3052106AECBA73D0 /* App */,
+				58C41AB085F26BE27C7B355F /* Models */,
+				D3CA54862C17356A2ACB6038 /* Preview Content */,
+				9222BEC195D9B5A439623E1D /* Services */,
+				09C109221D3059879B78E62E /* Theme */,
+				24D07B4D881991C7069785B3 /* Views */,
+			);
+			path = Ouch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F1748EFB4894BD2D43A699F /* Ouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC8E6D96FACFBEDC13E6D8F /* Build configuration list for PBXNativeTarget "Ouch" */;
+			buildPhases = (
+				11B5FC95E279DF142B30D19D /* Sources */,
+				5494CB08D4AA1633AB6DB395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ouch;
+			packageProductDependencies = (
+			);
+			productName = Ouch;
+			productReference = BBAFAAC5CFCDE4E89D091AEC /* Ouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D6FEDD84E9BE31E018ADDCF /* ShieldActionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D198E1659697AEBE8D2B26A /* Build configuration list for PBXNativeTarget "ShieldActionExtension" */;
+			buildPhases = (
+				536DFB7AE71E523CA1A42F59 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShieldActionExtension;
+			packageProductDependencies = (
+			);
+			productName = ShieldActionExtension;
+			productReference = A2B43F2DBF445C30629FC7EC /* ShieldActionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		74850A0E636AD41676484B6A /* OuchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A431EAD18CDBBDAD31CF51A5 /* Build configuration list for PBXNativeTarget "OuchTests" */;
+			buildPhases = (
+				6D2A895A32AE2383A662BAFD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				492748A1FC2A62E7978CBDD4 /* PBXTargetDependency */,
+			);
+			name = OuchTests;
+			packageProductDependencies = (
+			);
+			productName = OuchTests;
+			productReference = 1C104B0F9C4AA0B0DFA132A4 /* OuchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBEC68F07E879B94F8FA8214 /* DeviceActivityMonitorExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36037086419B15C05CAA5A7 /* Build configuration list for PBXNativeTarget "DeviceActivityMonitorExtension" */;
+			buildPhases = (
+				2CF60C7CB272046D95BAF296 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceActivityMonitorExtension;
+			packageProductDependencies = (
+			);
+			productName = DeviceActivityMonitorExtension;
+			productReference = 40E8976E493C08D6DCAB29A8 /* DeviceActivityMonitorExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FEE851B4D72C873E827A253B /* ShieldConfigurationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8F692E1D214FD3D655D178 /* Build configuration list for PBXNativeTarget "ShieldConfigurationExtension" */;
+			buildPhases = (
+				2DBB3542BAB9DAE836F2730E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShieldConfigurationExtension;
+			packageProductDependencies = (
+			);
+			productName = ShieldConfigurationExtension;
+			productReference = EA17B4146C0EDA33A75E01A1 /* ShieldConfigurationExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9260188559897D39AFB9CFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1F1748EFB4894BD2D43A699F = {
+						DevelopmentTeam = PGFLWJQPHH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 752160A13231A0813B784DDB /* Build configuration list for PBXProject "Ouch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8444752AE70575472BA6ED26;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBEC68F07E879B94F8FA8214 /* DeviceActivityMonitorExtension */,
+				1F1748EFB4894BD2D43A699F /* Ouch */,
+				74850A0E636AD41676484B6A /* OuchTests */,
+				4D6FEDD84E9BE31E018ADDCF /* ShieldActionExtension */,
+				FEE851B4D72C873E827A253B /* ShieldConfigurationExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5494CB08D4AA1633AB6DB395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB27AD6C96EAA0581ED4E229 /* Assets.xcassets in Resources */,
+				03256B7F828C8F1D947F8D78 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B5FC95E279DF142B30D19D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CF413DA948BF80B6F076E1E /* ActionButton.swift in Sources */,
+				2BCC6A6FFB82FCA3B5525737 /* AppState.swift in Sources */,
+				2CDA606A4E5E460AB187ADC2 /* BedtimeView.swift in Sources */,
+				F555B27CE5E95A1C87A02F27 /* CircularProgress.swift in Sources */,
+				F9DD9FB159645A1FB3CBA6D0 /* DayPicker.swift in Sources */,
+				103F1A0F1FD9399B656B47BE /* FocusActiveView.swift in Sources */,
+				3D6170C06EF0DE1E6AA703C2 /* FocusBlockEditView.swift in Sources */,
+				3442B4E70C62C24551842E7A /* FreeTimeView.swift in Sources */,
+				CD17A537AD522CCD13BC0C13 /* GlassCard.swift in Sources */,
+				A73F449A9664C9D3947FAD27 /* HomeView.swift in Sources */,
+				05DB2AACA6F8EFF372E1D80C /* MainTabView.swift in Sources */,
+				B7785620E7531EC1B1CDBD23 /* MorningView.swift in Sources */,
+				8FBAA16A0A53520784E58784 /* NotificationService.swift in Sources */,
+				D1863E5609293D3583AD945B /* OnboardingView.swift in Sources */,
+				B8BF53B653E8345E52B139D1 /* OuchApp.swift in Sources */,
+				A79AD5454C2EC1A8A9388A22 /* PenaltyEvent.swift in Sources */,
+				363A6F620F14C85FDB8A8263 /* Schedule.swift in Sources */,
+				8A07255C965E75CAECED3E45 /* ScheduleView.swift in Sources */,
+				7601FBE6EC9C0B713FD14304 /* ScreenTimeManager.swift in Sources */,
+				0B3C75D87C124768274F9D72 /* SettingsView.swift in Sources */,
+				D02C7E2F7289126A110DB53D /* SharedDefaults.swift in Sources */,
+				F0E4B536BFEEEF407729C1D2 /* StatItem.swift in Sources */,
+				CEBB8D3C894B20F5547836F1 /* StatsView.swift in Sources */,
+				CC6640F084D827DAF1C23E21 /* Theme.swift in Sources */,
+				80E5BA167A42805934301554 /* TimeState.swift in Sources */,
+				346F882C188E097B16A0549E /* VenmoService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF60C7CB272046D95BAF296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0006EF61E5D8369CA2DB88 /* DeviceActivityMonitorExtension.swift in Sources */,
+				D24B29E8C3455010ADB832A0 /* SharedDefaults.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBB3542BAB9DAE836F2730E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AC7A3182EDC80F51DC3A74 /* SharedDefaults.swift in Sources */,
+				1CBA6DE93BA3063F075D1B4D /* ShieldConfigurationExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		536DFB7AE71E523CA1A42F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31683AC236ADA43EC99F1BE8 /* SharedDefaults.swift in Sources */,
+				A5BBACFE569BCB3BEF749892 /* ShieldActionExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D2A895A32AE2383A662BAFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD97DC9A53388B581CFD59E /* ScheduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		492748A1FC2A62E7978CBDD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F1748EFB4894BD2D43A699F /* Ouch */;
+			targetProxy = 9A21D38F5297A50B72B87675 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F3AC4A4371EAC9B82E54441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShieldConfigurationExtension/ShieldConfigurationExtension.entitlements;
+				DEVELOPMENT_TEAM = PGFLWJQPHH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShieldConfigurationExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ouchapp.app.shield-configuration";
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50B083BAF6D9B249082E1F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DeviceActivityMonitorExtension/DeviceActivityMonitorExtension.entitlements;
+				DEVELOPMENT_TEAM = PGFLWJQPHH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeviceActivityMonitorExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikita.ouch;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50B5EB65BAEA72500E40C2AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ouchapp.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ouch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ouch";
+			};
+			name = Release;
+		};
+		5700BEE546905F5821E34D56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Ouch/Ouch.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ouch/Preview Content\"";
+				DEVELOPMENT_TEAM = PGFLWJQPHH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ouch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikita.ouch;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DA2C1137DA513D8D223ADE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ouchapp.app.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ouch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ouch";
+			};
+			name = Debug;
+		};
+		5F445DA74BE473F51C048D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Ouch/Ouch.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ouch/Preview Content\"";
+				DEVELOPMENT_TEAM = PGFLWJQPHH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Ouch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikita.ouch;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BECD23588B51EB7995C823F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DeviceActivityMonitorExtension/DeviceActivityMonitorExtension.entitlements;
+				DEVELOPMENT_TEAM = PGFLWJQPHH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeviceActivityMonitorExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikita.ouch;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8450E0EFEA958B8DCBF2786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShieldActionExtension/ShieldActionExtension.entitlements;
+				DEVELOPMENT_TEAM = PGFLWJQPHH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShieldActionExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ouchapp.app.shield-action";
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B97D3097563C5172EB753AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D97A267AB7DC127AB95E503C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShieldActionExtension/ShieldActionExtension.entitlements;
+				DEVELOPMENT_TEAM = PGFLWJQPHH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShieldActionExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ouchapp.app.shield-action";
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5DE4ECB9704101D8121D265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FD0089012CC0CEBC43BA5711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShieldConfigurationExtension/ShieldConfigurationExtension.entitlements;
+				DEVELOPMENT_TEAM = PGFLWJQPHH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShieldConfigurationExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ouchapp.app.shield-configuration";
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F8F692E1D214FD3D655D178 /* Build configuration list for PBXNativeTarget "ShieldConfigurationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3AC4A4371EAC9B82E54441 /* Debug */,
+				FD0089012CC0CEBC43BA5711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		752160A13231A0813B784DDB /* Build configuration list for PBXProject "Ouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B97D3097563C5172EB753AAA /* Debug */,
+				F5DE4ECB9704101D8121D265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D198E1659697AEBE8D2B26A /* Build configuration list for PBXNativeTarget "ShieldActionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8450E0EFEA958B8DCBF2786 /* Debug */,
+				D97A267AB7DC127AB95E503C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9FC8E6D96FACFBEDC13E6D8F /* Build configuration list for PBXNativeTarget "Ouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F445DA74BE473F51C048D08 /* Debug */,
+				5700BEE546905F5821E34D56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A431EAD18CDBBDAD31CF51A5 /* Build configuration list for PBXNativeTarget "OuchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DA2C1137DA513D8D223ADE3 /* Debug */,
+				50B5EB65BAEA72500E40C2AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F36037086419B15C05CAA5A7 /* Build configuration list for PBXNativeTarget "DeviceActivityMonitorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BECD23588B51EB7995C823F /* Debug */,
+				50B083BAF6D9B249082E1F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9260188559897D39AFB9CFF /* Project object */;
+}
