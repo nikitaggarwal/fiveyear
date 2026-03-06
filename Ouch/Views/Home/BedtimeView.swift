@@ -1,9 +1,37 @@
+import SwiftData
 import SwiftUI
 
 struct BedtimeView: View {
     @Environment(AppStateManager.self) private var appState
+    @Environment(\.modelContext) private var modelContext
     @State private var showVenmoConfirm = false
     @State private var animateIn = false
+
+    private static let bedtimeNotes = [
+        "caught scrolling again lol",
+        "no self control tax",
+        "doomscroll fee",
+        "weak moment surcharge",
+        "screen time walk of shame",
+        "brain rot bailout",
+        "couldn't resist the reels",
+        "up past bedtime like a toddler",
+        "midnight scrolling incident",
+        "sleep is for the strong and i am weak",
+        "one more reel turned into five dollars",
+        "bedtime rebellion fee",
+        "caught doomscrolling at night again",
+    ]
+
+    private var venmoNote: String {
+        let isFirstUnlock = !UserDefaults.shared.bool(forKey: "hasUnlockedBefore")
+        if isFirstUnlock {
+            UserDefaults.shared.set(true, forKey: "hasUnlockedBefore")
+            return "ouch that hurt my wallet"
+        }
+        if Int.random(in: 0..<5) < 2 { return "ouch that hurt my wallet" }
+        return Self.bedtimeNotes.randomElement() ?? Self.bedtimeNotes[0]
+    }
 
     var body: some View {
         VStack(spacing: FY.spacingXL) {
@@ -58,7 +86,17 @@ struct BedtimeView: View {
                 VenmoService.pay(
                     username: appState.venmoUsername,
                     amount: appState.penaltyAmount,
-                    note: "Ouch bedtime penalty"
+                    note: venmoNote
+                )
+                let event = PenaltyEvent(
+                    context: PenaltyContext.bedtime.rawValue,
+                    amount: appState.penaltyAmount,
+                    unlockDurationMinutes: appState.unlockDurationMinutes,
+                    venmoRecipient: appState.venmoUsername
+                )
+                modelContext.insert(event)
+                ScreenTimeManager.shared.temporaryUnlock(
+                    seconds: Double(appState.unlockDurationMinutes) * 60
                 )
                 appState.grantTemporaryUnlock()
             }

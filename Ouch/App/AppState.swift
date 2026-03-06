@@ -47,7 +47,9 @@ final class AppStateManager {
     // MARK: - Computed Time State
 
     func currentTimeState(at date: Date = .now) -> TimeState {
-        if isTemporarilyUnlocked { return .free }
+        if isTemporarilyUnlocked, let end = temporaryUnlockEnd {
+            return .onBreak(unlockEnd: end)
+        }
 
         let cal = Calendar.current
         let mins = cal.component(.hour, from: date) * 60 + cal.component(.minute, from: date)
@@ -69,7 +71,10 @@ final class AppStateManager {
             guard block.activeDays.contains(today) else { continue }
             let start = block.startHour * 60 + block.startMinute
             let end   = block.endHour * 60 + block.endMinute
-            if mins >= start && mins < end {
+            let inBlock = start <= end
+                ? (mins >= start && mins < end)
+                : (mins >= start || mins < end)
+            if inBlock {
                 return .focus(blockName: block.name, endHour: block.endHour, endMinute: block.endMinute)
             }
         }
