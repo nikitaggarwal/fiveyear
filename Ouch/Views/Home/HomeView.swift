@@ -17,6 +17,8 @@ struct HomeView: View {
                 FocusActiveView(blockName: name, endHour: endH, endMinute: endM, now: now)
             case .bedtime:
                 BedtimeView()
+            case .onBreak(let unlockEnd):
+                BreakView(unlockEnd: unlockEnd, now: now)
             case .free:
                 FreeTimeView(now: now)
             }

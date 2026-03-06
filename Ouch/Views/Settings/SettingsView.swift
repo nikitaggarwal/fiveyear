@@ -159,6 +159,19 @@ struct SettingsView: View {
                                     .foregroundStyle(FY.danger)
                             }
 
+                            #if canImport(FamilyControls)
+                            if !ScreenTimeManager.shared.activitySelection.applicationTokens.isEmpty {
+                                let count = ScreenTimeManager.shared.activitySelection.applicationTokens.count
+                                HStack(spacing: FY.spacingS) {
+                                    Image(systemName: "app.badge.checkmark.fill")
+                                        .foregroundStyle(FY.accent)
+                                    Text("\(count) app\(count == 1 ? "" : "s") blocked")
+                                        .font(.subheadline).fontDesign(.rounded)
+                                        .foregroundStyle(FY.textSecondary)
+                                }
+                            }
+                            #endif
+
                             Button {
                                 showAppPicker = true
                             } label: {

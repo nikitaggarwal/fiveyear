@@ -15,6 +15,7 @@
 		1CBA6DE93BA3063F075D1B4D /* ShieldConfigurationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09154FF889EE4F2FD10D5D5 /* ShieldConfigurationExtension.swift */; };
 		2BCC6A6FFB82FCA3B5525737 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67812EDAFB556DA0205AE135 /* AppState.swift */; };
 		2CDA606A4E5E460AB187ADC2 /* BedtimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB3AC48554474F8D5627468 /* BedtimeView.swift */; };
+		BRKV00000001BRKV00000001 /* BreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BRKV00000002BRKV00000002 /* BreakView.swift */; };
 		31683AC236ADA43EC99F1BE8 /* SharedDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5EFC5EB014EECBC6F479D /* SharedDefaults.swift */; };
 		3442B4E70C62C24551842E7A /* FreeTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AA99496EF7653098E2012D /* FreeTimeView.swift */; };
 		346F882C188E097B16A0549E /* VenmoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376DFE9C9443D7A8412EFA3 /* VenmoService.swift */; };
@@ -56,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		0EB3AC48554474F8D5627468 /* BedtimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedtimeView.swift; sourceTree = "<group>"; };
+		BRKV00000002BRKV00000002 /* BreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakView.swift; sourceTree = "<group>"; };
 		1A1D6E28CECFD632FAAD5154 /* ScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTests.swift; sourceTree = "<group>"; };
 		1C104B0F9C4AA0B0DFA132A4 /* OuchTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = OuchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE8FEA8479095CEF09AE314 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				0EB3AC48554474F8D5627468 /* BedtimeView.swift */,
+				BRKV00000002BRKV00000002 /* BreakView.swift */,
 				9B095F5DDD326DE4A13634C1 /* FocusActiveView.swift */,
 				21AA99496EF7653098E2012D /* FreeTimeView.swift */,
 				21FB45DADF81F38B72016859 /* HomeView.swift */,
@@ -315,10 +318,14 @@
 			buildPhases = (
 				11B5FC95E279DF142B30D19D /* Sources */,
 				5494CB08D4AA1633AB6DB395 /* Resources */,
+				F21301FE2D9E1D0A9EC89369 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7C35AFFC84C1C761EE5E4975 /* PBXTargetDependency */,
+				DE5C5E19CFED5BEC9046ADAF /* PBXTargetDependency */,
+				8867521A150E99E000FCD409 /* PBXTargetDependency */,
 			);
 			name = Ouch;
 			packageProductDependencies = (
@@ -409,6 +416,18 @@
 						DevelopmentTeam = PGFLWJQPHH;
 						ProvisioningStyle = Automatic;
 					};
+					BBEC68F07E879B94F8FA8214 = {
+						DevelopmentTeam = PGFLWJQPHH;
+						ProvisioningStyle = Automatic;
+					};
+					4D6FEDD84E9BE31E018ADDCF = {
+						DevelopmentTeam = PGFLWJQPHH;
+						ProvisioningStyle = Automatic;
+					};
+					FEE851B4D72C873E827A253B = {
+						DevelopmentTeam = PGFLWJQPHH;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 752160A13231A0813B784DDB /* Build configuration list for PBXProject "Ouch" */;
@@ -453,6 +472,7 @@
 				6CF413DA948BF80B6F076E1E /* ActionButton.swift in Sources */,
 				2BCC6A6FFB82FCA3B5525737 /* AppState.swift in Sources */,
 				2CDA606A4E5E460AB187ADC2 /* BedtimeView.swift in Sources */,
+				BRKV00000001BRKV00000001 /* BreakView.swift in Sources */,
 				F555B27CE5E95A1C87A02F27 /* CircularProgress.swift in Sources */,
 				F9DD9FB159645A1FB3CBA6D0 /* DayPicker.swift in Sources */,
 				103F1A0F1FD9399B656B47BE /* FocusActiveView.swift in Sources */,
@@ -529,6 +549,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ShieldConfigurationExtension/ShieldConfigurationExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGFLWJQPHH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShieldConfigurationExtension/Info.plist;
@@ -537,7 +559,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ouchapp.app.shield-configuration";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikita.ouch.shield-configuration";
 				SDKROOT = iphoneos;
 				SWIFT_STRICT_CONCURRENCY = complete;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -548,6 +570,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = DeviceActivityMonitorExtension/DeviceActivityMonitorExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGFLWJQPHH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DeviceActivityMonitorExtension/Info.plist;
@@ -556,7 +580,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikita.ouch;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikita.ouch.device-activity-monitor";
 				SDKROOT = iphoneos;
 				SWIFT_STRICT_CONCURRENCY = complete;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -655,6 +679,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = DeviceActivityMonitorExtension/DeviceActivityMonitorExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGFLWJQPHH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DeviceActivityMonitorExtension/Info.plist;
@@ -663,7 +689,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikita.ouch;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikita.ouch.device-activity-monitor";
 				SDKROOT = iphoneos;
 				SWIFT_STRICT_CONCURRENCY = complete;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -674,6 +700,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ShieldActionExtension/ShieldActionExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGFLWJQPHH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShieldActionExtension/Info.plist;
@@ -682,7 +710,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ouchapp.app.shield-action";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikita.ouch.shield-action";
 				SDKROOT = iphoneos;
 				SWIFT_STRICT_CONCURRENCY = complete;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -759,6 +787,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ShieldActionExtension/ShieldActionExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGFLWJQPHH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShieldActionExtension/Info.plist;
@@ -767,7 +797,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ouchapp.app.shield-action";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikita.ouch.shield-action";
 				SDKROOT = iphoneos;
 				SWIFT_STRICT_CONCURRENCY = complete;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -837,6 +867,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = ShieldConfigurationExtension/ShieldConfigurationExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGFLWJQPHH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShieldConfigurationExtension/Info.plist;
@@ -845,7 +877,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ouchapp.app.shield-configuration";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikita.ouch.shield-configuration";
 				SDKROOT = iphoneos;
 				SWIFT_STRICT_CONCURRENCY = complete;
 				TARGETED_DEVICE_FAMILY = "1,2";

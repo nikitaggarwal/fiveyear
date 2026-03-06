@@ -3,13 +3,13 @@ import UIKit
 @MainActor
 enum VenmoService {
     static func pay(username: String, amount: Double, note: String) {
-        let encodedNote = note.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? note
         let amountStr = String(format: "%.2f", amount)
+        // Venmo's deep link converts normal spaces to "+".
+        // Non-breaking spaces (U+00A0) display identically but avoid this.
+        let fixedNote = note.replacingOccurrences(of: " ", with: "\u{00A0}")
+        let encodedNote = fixedNote.addingPercentEncoding(withAllowedCharacters: .alphanumerics) ?? note
 
-        // Venmo deep link
         let venmoURL = "venmo://paycharge?txn=pay&recipients=\(username)&amount=\(amountStr)&note=\(encodedNote)"
-
-        // Fallback to Venmo website
         let webURL = "https://venmo.com/\(username)?txn=pay&amount=\(amountStr)&note=\(encodedNote)"
 
         if let url = URL(string: venmoURL), UIApplication.shared.canOpenURL(url) {

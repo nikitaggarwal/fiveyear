@@ -4,12 +4,13 @@ enum TimeState: Equatable {
     case morning
     case focus(blockName: String, endHour: Int, endMinute: Int)
     case bedtime
+    case onBreak(unlockEnd: Date)
     case free
 
     var isBlocking: Bool {
         switch self {
         case .morning, .focus, .bedtime: true
-        case .free: false
+        case .onBreak, .free: false
         }
     }
 
@@ -18,6 +19,7 @@ enum TimeState: Equatable {
         case .morning: "Good Morning"
         case .focus(let name, _, _): name
         case .bedtime: "Bedtime"
+        case .onBreak: "On Break"
         case .free: "Free Time"
         }
     }

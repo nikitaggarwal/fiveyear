@@ -1,9 +1,16 @@
+import SwiftData
 import SwiftUI
 
 struct FreeTimeView: View {
     let now: Date
     @Environment(AppStateManager.self) private var appState
+    @Query(sort: \PenaltyEvent.timestamp, order: .reverse) private var penalties: [PenaltyEvent]
     @State private var animateIn = false
+
+    private var todaySpent: Int {
+        let startOfDay = Calendar.current.startOfDay(for: .now)
+        return Int(penalties.filter { $0.timestamp > startOfDay }.reduce(0) { $0 + $1.amount })
+    }
 
     var body: some View {
         VStack(spacing: FY.spacingXL) {
@@ -42,7 +49,7 @@ struct FreeTimeView: View {
                     }
 
                     HStack(spacing: FY.spacingXL) {
-                        StatItem(value: "$0", label: "Spent", icon: "dollarsign.circle", color: FY.danger)
+                        StatItem(value: "$\(todaySpent)", label: "Spent", icon: "dollarsign.circle", color: FY.danger)
                         StatItem(value: "\(appState.currentStreak)", label: "Day Streak", icon: "flame.fill", color: FY.warning)
                     }
                 }
@@ -63,14 +70,18 @@ struct FreeTimeView: View {
     private var nextBlockText: String {
         let cal = Calendar.current
         let curMins = cal.component(.hour, from: now) * 60 + cal.component(.minute, from: now)
-        var nextTime = appState.schedule.bedtimeHour * 60 + appState.schedule.bedtimeMinute
+        let bedMins = appState.schedule.bedtimeHour * 60 + appState.schedule.bedtimeMinute
+        var nextDelta = bedMins > curMins ? bedMins - curMins : bedMins + 1440 - curMins
+        var nextTime = bedMins
         var nextName = "Bedtime"
 
         let today = cal.component(.weekday, from: now)
         for block in appState.schedule.focusBlocks {
             guard block.activeDays.contains(today) else { continue }
             let startMins = block.startHour * 60 + block.startMinute
-            if startMins > curMins && startMins < nextTime {
+            let delta = startMins > curMins ? startMins - curMins : startMins + 1440 - curMins
+            if delta < nextDelta {
+                nextDelta = delta
                 nextTime = startMins
                 nextName = block.name
             }

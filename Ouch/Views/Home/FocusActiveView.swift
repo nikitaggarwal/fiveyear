@@ -1,3 +1,4 @@
+import SwiftData
 import SwiftUI
 
 struct FocusActiveView: View {
@@ -7,21 +8,60 @@ struct FocusActiveView: View {
     let now: Date
 
     @Environment(AppStateManager.self) private var appState
+    @Environment(\.modelContext) private var modelContext
     @State private var showVenmoConfirm = false
+
+    private static let genericNotes = [
+        "caught scrolling again lol",
+        "no self control tax",
+        "doomscroll fee",
+        "weak moment surcharge",
+        "screen time walk of shame",
+        "brain rot bailout",
+        "couldn't resist the reels",
+    ]
+
+    private static func focusNotes(for name: String) -> [String] {
+        let n = name.lowercased()
+        return [
+            "couldn't survive \(n) without my phone",
+            "folded during \(n)",
+            "broke out of \(n) like a prison escape",
+            "\(n)? more like scroll time",
+            "paid to escape \(n)",
+            "surrendered during \(n)",
+            "\(n) was too hard apparently",
+            "couldn't handle \(n) lol",
+        ]
+    }
+
+    private var venmoNote: String {
+        let isFirstUnlock = !UserDefaults.shared.bool(forKey: "hasUnlockedBefore")
+        if isFirstUnlock {
+            UserDefaults.shared.set(true, forKey: "hasUnlockedBefore")
+            return "ouch that hurt my wallet"
+        }
+        // ~40% chance for the signature note
+        if Int.random(in: 0..<5) < 2 { return "ouch that hurt my wallet" }
+        let all = Self.genericNotes + Self.focusNotes(for: blockName)
+        return all.randomElement() ?? Self.genericNotes[0]
+    }
 
     private var progress: Double {
         let cal = Calendar.current
         let curSecs = cal.component(.hour, from: now) * 3600
             + cal.component(.minute, from: now) * 60
             + cal.component(.second, from: now)
-        let endSecs = endHour * 3600 + endMinute * 60
+        var endSecs = endHour * 3600 + endMinute * 60
         if let block = appState.schedule.focusBlocks.first(where: {
             $0.endHour == endHour && $0.endMinute == endMinute
         }) {
             let startSecs = block.startHour * 3600 + block.startMinute * 60
+            if endSecs <= startSecs { endSecs += 86400 }
             let total = endSecs - startSecs
             guard total > 0 else { return 0 }
-            return Double(curSecs - startSecs) / Double(total)
+            let cur = curSecs < startSecs ? curSecs + 86400 : curSecs
+            return Double(cur - startSecs) / Double(total)
         }
         return 0
     }
@@ -29,7 +69,9 @@ struct FocusActiveView: View {
     private var timeRemaining: String {
         let cal = Calendar.current
         let curMin = cal.component(.hour, from: now) * 60 + cal.component(.minute, from: now)
-        let remaining = max((endHour * 60 + endMinute) - curMin, 0)
+        var endMin = endHour * 60 + endMinute
+        if endMin <= curMin && endMin < 720 { endMin += 1440 }
+        let remaining = max(endMin - curMin, 0)
         let h = remaining / 60
         let m = remaining % 60
         return h > 0 ? "\(h)h \(m)m" : "\(m)m"
@@ -116,7 +158,17 @@ struct FocusActiveView: View {
                 VenmoService.pay(
                     username: appState.venmoUsername,
                     amount: appState.penaltyAmount,
-                    note: "Ouch focus penalty"
+                    note: venmoNote
+                )
+                let event = PenaltyEvent(
+                    context: PenaltyContext.focus.rawValue,
+                    amount: appState.penaltyAmount,
+                    unlockDurationMinutes: appState.unlockDurationMinutes,
+                    venmoRecipient: appState.venmoUsername
+                )
+                modelContext.insert(event)
+                ScreenTimeManager.shared.temporaryUnlock(
+                    seconds: Double(appState.unlockDurationMinutes) * 60
                 )
                 appState.grantTemporaryUnlock()
             }
