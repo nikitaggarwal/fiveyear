@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Xcode user-specific data
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Xcode build outputs
+build/
+build-sim/
+DerivedData/
+*.moved-aside
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# fastlane generated artifacts
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Cursor local workspace state
+.cursor/*
+!.cursor/rules/
+!.cursor/rules/**
+!.cursor/settings.json
+!.cursor/extensions.json
